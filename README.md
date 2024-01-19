@@ -6,19 +6,19 @@ The Web Scraping and Text Summarization Pipeline automates the process of gather
 This streamlined approach empowers users to efficiently access key information without navigating through extensive web content. The README provides a brief overview of the project's structure and purpose for user reference.
 This project comprises a robust pipeline for web scraping, text summarization, and subsequent evaluation of generated summaries. The process is organized into three main sections:
 
-## Web Scraping
+# Web Scraping
 
 In this stage, the BeautifulSoup library is utilized for web scraping, and the requests library is employed to retrieve text from a specified URL. The content is then parsed using HTML parsing, and relevant data, including headings and paragraphs, is extracted for further analysis.
 
-## Text Summarization
+# Text Summarization
 
 The text summarization phase involves utilizing the Vertex AI TextGenerationModel. The model is initialized and loaded with pre-trained parameters, generating concise summaries based on provided prompts and content extracted during web scraping.
 
-## Evaluation
+# Evaluation
 
 The project evaluates the quality of generated summaries using two methods: Rouge Score and Cosine Similarity. The Rouge Score assesses precision, recall, and F1-score, while Cosine Similarity measures the similarity between the generated summaries and the original content.
 
-## Requirements
+# Requirements
 
 - `beautifulsoup4`
 - `requests`
@@ -29,7 +29,15 @@ The project evaluates the quality of generated summaries using two methods: Roug
 
 Note: The project does not support Google Colab as a dependency; it is designed to be run in a standard Python environment. Ensure that the specified libraries are installed in your Python environment before running the code.
 
-## Problems Faced
+# Running the Project
+
+To test the pre-trained model with custom prompts, follow these steps:
+
+1. Clone or fork this repository to your local machine.
+2. Install the necessary dependencies and libraries required to run the model.
+3. Utilize the model by running the provided scripts and specifying your custom prompts.
+
+# Problems Faced
 
 ### Web Scraping:
 1. **Approach Selection:** Choosing the appropriate approach for web scraping posed a challenge. Deciding whether to scrape using HTML tags for structural integrity or extracting raw content required careful consideration.
