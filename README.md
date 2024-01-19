@@ -1,5 +1,6 @@
 # Web Scraping and Text Summarization Pipeline
 The Web Scraping and Text Summarization Pipeline automates the process of gathering insights from a web page and condensing them into brief, meaningful summaries. Comprising two primary steps, the pipeline effortlessly extracts pertinent information from a specified web source and then utilizes advanced text summarization techniques to distill the essence of the content into concise summaries.
+
 ![Pipeline](https://github.com/2002nishthajain/Text-Summarization-Wikepedia-Page/assets/79302868/f8618d60-d564-4a56-bae6-ab3b0ba34719)
 This streamlined approach empowers users to efficiently access key information without navigating through extensive web content. The README provides a brief overview of the project's structure and purpose for user reference.
 This project comprises a robust pipeline for web scraping, text summarization, and subsequent evaluation of generated summaries. The process is organized into three main sections:
